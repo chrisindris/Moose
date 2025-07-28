@@ -1,0 +1,128 @@
+# Mac-specific files
+._*
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# R specific
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rprofile
+.Renviron
+.Rproj.user/
+*.Rproj
+
+# R package files
+*.tar.gz
+*.tgz
+*.zip
+
+# R temporary files
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Data files (excluding .csv which you want to keep)
+*.xlsx
+*.xls
+*.json
+*.xml
+*.sqlite
+*.db
+
+# Model files (if any)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.model
+*.weights
+*.pt 
+*.pth
+*.pkl.gz
+*.pth.tar
+*.pth.tar.gz
+*.pth.tar.bz2
+*.pth.tar.xz
+*.pth.tar.lzma
+
+# Configuration files that might contain sensitive data
+config.ini
+secrets.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
