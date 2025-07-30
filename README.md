@@ -1,6 +1,6 @@
 # 🫎 Tracking Moose Using Aerial Object Detection
 
-![Detection Example](moosedetectoratwork.png)
+![Detection Example](assets/moosedetectoratwork.png)
 
 This repository contains the code, models, and data used in our paper:
 
@@ -8,7 +8,8 @@ This repository contains the code, models, and data used in our paper:
 *Christopher Indris, Raiyan Rahman, Goetz Bramesfeld, Guanghui Wang*  
 Toronto Metropolitan University, 2025
 
-📄 [Read the full paper on arXiv (coming soon!)](https://arxiv.org/abs/placeholder)
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<i class="ai ai-arxiv-square ai-2x"></i><a href="https://arxiv.org/abs/2507.21256"> Read the full paper on arXiv: 2507.21256</a>
 
 ## 🧠 Project Overview
 
@@ -29,23 +30,26 @@ The result: **YOLOv11**, despite being the lightest model, achieves comparable o
 - **Efficiency**: YOLOv11 achieved 93.2% mAP@0.5 using only 2.6M parameters and ~0.17 sec/iter.
 
 ## 🗂️ Repository Structure
-- 📁 Notebooks/ Python runs
-- 📁 R/ analysis
+- 📁 Notebooks/ --> Python runs
+- 📁 R/ --> analysis
 
 ## 📦 Requirements
 
 We use **PyTorch**, **Ultralytics YOLO**, and **MMDetection**, and **R** for analysis.
 See the .ipynb notebooks for installation details.
 
-# 📚 Citation
+## 📚 Citation
 If you find this work useful, please consider citing:
 
 ```bibtex
-@article{indris2025tracking,
-  title={Tracking Moose Using Aerial Object Detection},
-  author={Indris, Christopher and Rahman, Raiyan and Bramesfeld, Goetz and Wang, Guanghui},
-  journal={arXiv preprint arXiv:placeholder},
-  year={2025}
+@misc{indris2025trackingmooseusingaerial,
+      title={Tracking Moose using Aerial Object Detection}, 
+      author={Christopher Indris and Raiyan Rahman and Goetz Bramesfeld and Guanghui Wang},
+      year={2025},
+      eprint={2507.21256},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.21256}, 
 }
 ```
 

@@ -1,5 +1,5 @@
 # Define the CSV file path
-csv_file <- "/Volumes/T7 Shield/data/Moose/ColabOutputs/yolo_by_patchsize_pixels.csv"
+csv_file <- "./yolo_by_patchsize_pixels.csv"
 # Note that simply the mean_pixel_count doesn't have much bearing on mAP50, since more pixels on average doesn't necessarily help, what helps is seeing the moose up close. Therefore, average bbox size might explain it, but this is what our patching method targets anyway.
 
 # Read the CSV file
@@ -71,7 +71,7 @@ par(mfrow = c(1, 1))
 # produce a plot that shows why model_spline_2 is better than model_interaction_poly 
 # generate the diagnostic plots
 setEPS()                                    # ensure EPS not generic PostScript
-postscript("/Volumes/T7 Shield/data/Moose/ColabOutputs/mlr_threemodels_goodcopy/yolo_by_patchsize_interaction_poly_spline_diagnostics.eps",            # output filename
+postscript("./yolo_by_patchsize_interaction_poly_spline_diagnostics.eps",            # output filename
            width = 14, height = 7,           # size in inches
            paper = "special", onefile = FALSE)  # EPS-compliant settings
 ## ---- 1. set up the overall plotting area ----
@@ -101,7 +101,7 @@ dev.off()
 
 # generate the diagnostic plots
 setEPS()                                    # ensure EPS not generic PostScript
-postscript("/Volumes/T7 Shield/data/Moose/ColabOutputs/mlr_threemodels_goodcopy/yolo_by_patchsize_residuals_vs_fitted.eps",            # output filename
+postscript("./yolo_by_patchsize_residuals_vs_fitted.eps",            # output filename
            width = 14, height = 7,           # size in inches
            paper = "special", onefile = FALSE)  # EPS-compliant settings
 ## ---- 1. set up the overall plotting area ----
